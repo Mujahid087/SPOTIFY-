@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify - Web Player: Music for everyone</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+  <div class="container flex bg-black">
+    <div class="left   ">
+      <div class="close">
+        <img width="30" class="invert" src="close.svg" alt="">
+      </div>
+      <div class="home bg-grey m-1 rounded p-1">
+        <div class="log"><img width="110px" class="invert" src="logo.svg"></div>
+        <ul>
+          <li><img class="invert" src="home.svg" alt="home">Home</li>
+          <li><img class="invert" src="search.svg"> Search</li>
+        </ul>
+
+      </div>
+      <div class="library bg-grey rounded p-1 m-1">
+        <div class="heading">
+          <img class="invert" src="playlist.svg">
+          <h2> Your library</h2>
+
+        </div>
+        <div class="songlist">
+          <ul>
+            <li>
+              <img class="invert" src="music.svg">
+              <div class="info">
+                <div>Name</div>
+                <div>Artist</div>
+
+              </div>
+              <div class="playnow">
+                <span>playnow</span>
+                <img class="invert" src="play.svg">
+              </div>
+
+
+            </li>
+          </ul>
+        </div>
+        <div class="footer">
+          <div><a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a></div>
+          <div><a href="https://www.spotify.com/in-en/privacy/"><span>Privacy Center</span></a></div>
+          <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a></div>
+          <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a></div>
+          <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+          <div><a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a></div>
+
+
+
+        </div>
+
+
+      </div>
+
+
+    </div>
+    <div class="right bg-grey  rounded  ">
+      <div class="header">
+
+
+
+        <div class="nav">
+          <div class="hamburgercontainer">
+            <img width="40px" class="invert hamburger" src="hamburger.svg" alt="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="#ffffff" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="#ffffff" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </div>
+        </div>
+        <div class="buttons">
+          <button class="signupbtn">sign up</button>
+          <button class="loginbtn">Log in</button>
+        </div>
+      </div>
+      <div class="spotifyplaylists">
+        <h1>Spotify Playlists</h1>
+        <div class="CardContainer">
+          <div class="card">
+            <div class="play">
+
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
+
+                <path d="M5 20V4L19 12L5 20Z" fill="#000000" stroke="#141B34" fill="#000" stroke-width="1.5"
+                  stroke-linejoin="round" />
+              </svg>
+
+
+
+            </div>
+
+            <img src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de" alt="">
+            <h2>Dinner With Friends</h2>
+            <p>The perfect soundtrack to those long nights over dinner</p>
+          </div>
+          <div class="card ">
+            <img src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de" alt="">
+            <h2>Dinner With Friends</h2>
+            <p>The perfect soundtrack to those long nights over dinner</p>
+          </div>
+
+        </div>
+        <div class="playbar">
+          <div class="seekbar">
+            <div class="circle">
+
+            </div>
+          </div>
+          <!-- </div> -->
+          <div class="abovebar">
+            <div class="songinfo">
+
+            </div>
+            <div class="songbutton">
+              <img id="previous" src="previous.svg" alt="">
+              <img id="play" src="play.svg" alt="">
+              <img id="next" src="next.svg" alt="">
+            </div>
+            <div class="songtime">
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
